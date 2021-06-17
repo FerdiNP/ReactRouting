@@ -1,0 +1,246 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  margin-bottom: 50px;
+}
+
+.home-cards img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.home-cards h3 {
+  margin-bottom: 10px;
+}
+
+.home-cards a {
+  display: inline-block;
+  padding-top: 10px;
+  color: #0067b8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.site-footer{
+  background-color:#26272b;
+  padding:45px 0 45px;
+  font-size:15px;
+  color:#737373;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+.copyright-text
+{
+  margin:0
+}
+
+.row a {
+  display: inline-block;
+  padding-top: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page-content {
+  display: inline-block;
+  width: 100%;
+  padding-left: 1px;
+  padding-top: 20px;
+}
+
+.page-content > div {
+  padding: 40px 70px;
+}
+
+
+.sec-main {
+  position: relative;
+  height: 600px;
+  background: url(./image/20.jpg) center no-repeat;
+}
+
+nav {
+width: 100%;
+padding: 10px;
+}
+
+nav ul li a {
+padding: 15px;
+color: white;
+font-weight: 500;
+text-transform: uppercase;
+margin: 0 10px;
+}
+
+nav ul li :hover {
+color: grey;
+}
+
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .10s;
+}
+
+nav.stroke ul li a {
+  position: relative;
+}
+
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+
+nav.stroke ul li a:hover:after {
+  width: 50%;
+}
+
+
+section {
+  padding: 5em 0;
+}
+
+hr {
+  margin-bottom: 3em;
+  width: 10%;
+}
+
+.kontak2 a{
+  font-weight: 100;
+  text-align: absolute;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.kontak2{
+  text-align: center;
+  font-size: 25px;
+}
+
+.container > h1 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container > a {
+  font-weight: 100;
+  text-align: center;
+  font-size: 25px;
+}
+
+.tentangsaya2 > h1 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 25px;
+}
+
+.tentangsaya2 {
+  position: absolute;
+  padding: 300px;
+  margin: auto;
+  height: 100px;
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.beranda {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: auto;
+  height: 40px;
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+.beranda2 {
+  position: absolute center;
+  margin: auto;
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.tentangsaya {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: auto;
+  height: 40px;
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+.karya {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: auto;
+  height: 40px;
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
+
+.kontak {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 0;
+  margin: auto;
+  height: 40px;
+  color: white;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+}
